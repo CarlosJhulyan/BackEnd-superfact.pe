@@ -1,0 +1,22 @@
+{
+  "name": "backend-superfact.pe",
+  "version": "1.0.0",
+  "description": "Web service para las cotizaciones de la Pagina Web SuperFact.pe",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "Carlos Jhulyan",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "juice": "^8.0.0",
+    "mysql2": "^2.3.0",
+    "nodemailer": "^6.6.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5"
+  }
+}
